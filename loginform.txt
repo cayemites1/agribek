@@ -1,0 +1,200 @@
+<! Docrype html>
+<html>
+<head >
+<title>
+Production
+</title>
+</head>
+<style>
+/*full-width input field*/
+Input [type=text],
+input [type=password]{
+Width:100%;
+Padding:12px 0;
+Margin:8px 0;
+display:inline-block; 
+border:1px solid #ccc;
+box-sizing:border-box;
+}
+/*set a style for all buttons*/
+button {
+background-color:#48d1cc;
+Color:white; 
+Padding:14px 20px; 
+Margin:8px 0;
+border:none;
+Cursor:pointer;
+Width:100%;
+}
+.cancelbtn {
+width:auto;
+Padding:10px 18pz; 
+background-color:#4682b4;
+}
+/*center the image and position the close button*/
+.imgxontainer {
+text align:center;
+Margin:24px 0 12px 0;
+Position:relative;
+}
+img.avatar {
+width 40:%;
+border-radius:50%;
+}
+.container {
+padding:16px; 
+}
+Span.psw {
+float:right; 
+Padding-top:16px; 
+}
+/*the modal (background)*/
+.modal {
+display:none; 
+Position:fixed; 
+Z-index:1;
+left:0;
+Top:0;
+width:100%;
+Height:100%;
+Overflow:auto; 
+background-color:rgb (0,0,0)
+background-color:rgba (0,0,0,0.4);
+Padding-top:60px; 
+}
+.modal-content {
+background-color:#fefefe;
+margin:5% auto 15%;
+border:1px solid #888,
+width:80%
+}
+/*the close button ()*/
+.close {
+Position:absolute;
+Right:25px;
+top:0;
+Color:#000;
+font-size:35px; 
+font-weight:bold;
+}
+.close:hover;,
+.close:focus {
+Color:red;
+cursor:pointer;
+}
+/*Add zoom animation*/
+.animate {
+_WebKit-animation:animatezoom 0.6s;
+-animation; animatezoom0.6s;
+}
+@-WebKit-keyframes animatezoom{
+from {-WebKit-transform:scale (0)}
+to {-WebKit-transform:scale (1)}
+}
+@keyframes animatezoom {
+from {transform:scale (0)}
+to {transform:scale (1)}
+}
+/*change style for span and cancel button on extra small screens*/
+@media screen and (max-width:300px){
+Span. Psw {
+display:block; 
+float:none;
+}
+.cancelbtn {
+width:100%;
+}
+}
+</style>
+<body>
+<h2>Application form</h2
+<button onclick="document.getElementById ('id01')
+.style. display='block'"
+style="width:auto; ">personal data
+</button>
+<div id=id01" class="post">
+<form method="post" action"/php/php_form.htm">
+<div class="imgcontainer:>
+<span onclick="document.getElementById ('id01)
+.style. display='none'"
+Class="close" title="close modal">&times; 
+</span>
+<img src="img-profile. Php"
+Alt="avatar" class="avatar">
+</div>
+<div class="container">
+<label><b>Name </b></label>
+<input type="text"name="uname" required>
+<label><b>password</b></label>
+<input type="password" name="psw"required>
+	<label><b>  Nationalité</b></label  >  
+	<input  type  ="Nationalité"  name  ="uname"required  >  
+		<label><b>statut</b></b></label>
+		<input  type  ="statut" name ="uname"required  >  
+			<label><b>DOB </b></label>
+			<input  type  ="DOB"  name ="psw"required >  
+				<label><b>POB  </b></label >  
+				<input  type  ="POB" name ="uname"required >  
+					<label><b>adresse</b></label >  
+					<input  type  ="adresse" name="psw"required >  
+						<label><b>téléphone</b></label >  
+						<input  type  ="téléphone" name="psw"required >  
+							<label><b>NIF </b></label>
+							<input  type  ="NIF" name="psw"required>
+								<label><b>e mail</b></label>
+								<input  type  ="e mail" name="psw"required>
+<button type="submit">Niveau d'etude</button>
+</div>
+<div  class ="container">
+	<label><b>Primaire  </b></label>
+	<input  type ="radio" name  ="primaire" value="primaire">
+		<label><b>secondaire</b></label>
+		<input  type  ="radio" name  ="secondaire" value="secondaire">
+			<label><b>universitaire</b></label>
+			<input  type  ="radio" name  ="universitaire" value="universitaire">
+				<label><b>technique</b></label>
+				<input  type  ="radio" name ="technique" value="technique">
+					</div>
+<div class="container"
+Style="background-color:#f1f1f1">
+<button type="button:
+Onclick="document.getElementById ('id01')
+.style. display='none'"> Formation professionnelle
+</button>
+<div  class  ="container">
+	<label><b>électronique</b><label>
+		<input  type  ="radio" name  ="électronique" >  
+			<label><b>plomberie</b></label>
+			<input  type  ="radio" name  ="plomberie" >  
+				<button  type ="submit">Expérience  professionnelle </button>
+<div  class="container">
+	<label><b>Année</b></label>
+	<input  type  ="Année" name  ="psw"required">
+		<label><b>compagnie</b></label>
+		<input  type  ="compagnie" name  ="uname"required">
+			<label><b><Année</b></label>
+			<input  type  ="Année" name  =  "  psw"required">
+				<label><b>compagnie</b></
+				Style="background-color:#f44336">
+					<button  type="button:
+					Onclick="document.getElementById  ('id01')
+					.style.  display='none">Expérience  professionnelle  
+					</button>
+					<span class="psw">
+<a href="#">b
+</a></span>
+</div>
+</form>
+</div>
+<script>
+
+}
+}
+</script>
+</body>
+</html>
+
+
+
+
+
